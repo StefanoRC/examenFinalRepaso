@@ -1,10 +1,12 @@
-function suamr (a,b){
-	let resultado = a+ b;
+function sumar (num1,num2){
+	let resultado = num1 + num2;
+	return resultado
 }
 
-function mostrarSuma(x, y){
-	let resultadoSuma = sumar (x, y);
-	console.log("el resultado de la suma es: ", resultadoSuma)
+function mostrarSuma(num1, num2){
+	let resultadoSuma = sumar(num1, num2);
+	 //console.log("el resultado de la suma es: " + resultadoSuma) otra opcion
+	 return resultadoSuma
 }
 
-console.log(mostrarSuma(10, 5))
+console.log(mostrarSuma(20, 5))
